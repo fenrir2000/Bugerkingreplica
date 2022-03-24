@@ -1,0 +1,341 @@
+body{ 
+  background-color: #EEE5D8
+  
+
+
+}
+
+
+
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #EEE5D8;
+}
+/* the following controls the menu bars movement */
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(80, 35, 20);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+
+
+/* the following is the the top navigation bar */
+.topnav {
+  background-color: #EEE5D8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 
+  
+  
+}
+/* Style for the links in the bar */
+.topnav a {
+  float: left;
+  color: rgb(80, 35, 20);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: georgia; 
+  
+}
+/* colour when they are hovered over */
+.topnav a:hover {
+  color: red;
+  
+}
+/* colour for the menu */
+.topnav a.active {
+  background-color: #EEE5D8;
+  color: rgb(80, 35, 20);
+}
+
+.Logo {
+  padding-left: 48%;
+  
+
+  
+}
+
+.Banner {
+  padding-top: 100px;
+
+
+  
+}
+
+
+/* the following controls the dropdown for more */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(80, 35, 20);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: georgia;
+  margin: 0; 
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EEE5D8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(80, 35, 20);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #EEE5D8;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+/* this controls what the buttons look like */
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: georgia;
+  float: right;
+  
+  
+}
+.button2 {
+  background-color: rgb(80, 35, 20);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: georgia;
+  float: right; 
+}
+
+.buttons {
+  float: right;
+
+  
+}
+
+
+/* this is the grid for the four images */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 20%;
+  
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.gridpics{
+  cursor: pointer;
+  
+}
+
+/* the following controls the style of the items within the darker shaded area at the bottom of the page */
+
+
+.Spacing{
+  width: 100%; height: 180px;
+  border-style: solid;
+  border-color: #EEE5D8;
+  background-color: #EEE5D8;
+
+
+
+  
+}
+
+
+.Phone {
+  padding-top: 80px;
+  padding-left: 39%;
+  padding-right: 39%;
+  position: absolute; 
+
+
+  
+}
+
+.ColourChange {
+  width: 100%; height: 450px;
+  border-style: solid;
+  border-color: #dbccb6;
+  background-color: #dbccb6;
+  padding-right: 10px
+  
+}
+
+.FirstText{
+  padding-left: 65%;
+  padding-top: 50px;
+  padding-right: 12%;
+  font-family: fantasy, copperplate;
+  color: rgb(80, 35, 20);
+  font-size: 55px;
+  
+}
+
+
+.AppStoreLinks{
+  padding-left: 65%;
+  padding-top: 50px
+}
+
+
+
+.SecondText{
+  padding-left: 65%;
+  padding-top: 30px;
+  padding-right: 10%;
+  color: rgb(80, 35, 20);
+}
+
+.footer-container{
+  background-color: #2b0707;
+  padding-bottom: 4rem;
+  padding-top: 5px;
+  width: 100%;
+  padding-right: 10px
+  
+}
+
+
+
+.footer{
+  background-color: #2b0707;
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: arial, helvetica, sans-serif;
+  
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  padding-right: 500px;
+ 
+  
+}
+
+
+.footer-heading h2{
+  margin-bottom: 2rem;
+  
+
+  
+}
+
+.footer-heading a{
+  color: #66513c;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+
+  
+}
+
+.footer-heading a:hover{
+  text-decoration: underline
+  
+}
+
+.line{
+  padding-top: 20px
+  width: 80%
+}
+
+
+.footer-heading3 {
+  color: white;
+  padding-left: 260px
+
+  
+}
+
+.footer-heading3 p{
+  color: #66513c;
+
+
+  
+}
+
+.BottomBar{
+  cursor: pointer;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  margin:0;
+  box-sizing: border-box;
+  background-color:white;
+  
+  
+}
